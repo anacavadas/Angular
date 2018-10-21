@@ -9,6 +9,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms'; 
 import { AppComponent } from './app.component';
 
 import 'hammerjs';
@@ -44,11 +48,15 @@ import { LoginComponent } from './login/login.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatDialogModule,
+    MatFormFieldModule, 
+    MatInputModule,
+    MatCheckboxModule,
     FlexLayoutModule,
     MatListModule,
     MatGridListModule,
     MatCardModule,
     MatButtonModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [
